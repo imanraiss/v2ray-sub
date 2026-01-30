@@ -1,7 +1,96 @@
-vless://9fd051c2-6f88-4d55-8d9a-f80489ab7d95@vipnet12a.alireza031.shop:19355?path=%2FVIPNET12&security=&encryption=none&host=PeJiw.divarcdn.com%2Ca3rly.snappfood.ir%2CfZ6eG.yjc.ir%2CjU1XC.digikala.com%2CogKBN.tic.ir&type=ws#VIP4
-vless://1d8fda0a-e95d-44f5-a77a-efcec4df62e0@v2nl.imesaagetext.ir:2081?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=random&type=tcp&allowInsecure=0&sni=client.imesaagetext.ir#iman1
 vless://fddff049-56d8-4ef9-afd9-2eef46fbe214@wifi6.iampr0.com:800?security=&alpn=http%2F1.1%2Ch2&encryption=none&host=anten.ir&headerType=http&fp=chrome&type=tcp#%F0%9F%87%AE%F0%9F%87%B7NB%F0%9F%87%A9%F0%9F%87%AA-40182
 vless://1d1a8c7b-d791-4599-bc2b-40d83c3c826d@vipnet12a.alireza031.shop:45862?path=%2FVIPNET12&security=&encryption=none&host=Ni8DQ.divarcdn.com%2Cox5d0.snappfood.ir%2Cw8hmL.yjc.ir%2CUjXw7.digikala.com%2CA5tBT.tic.ir&type=ws#VIP22
-vless://2dbfe64c-5dd2-4394-9e38-375762a49de8@residental.alireza031.shop:12099?path=%2FRESIDENTAL&security=&encryption=none&type=ws#Yman
-vless://90ce7184-10a3-44cb-b9b4-1d366d86e728@servisvip.mygoldiran.com:58158?security=none&encryption=none&host=http%3A%2F%2Fcp.cloudflare.com%2Fgenerate_204&headerType=http&type=tcp#%E2%80%8C
+vless://1d8fda0a-e95d-44f5-a77a-efcec4df62e0@v2nl.imesaagetext.ir:2081?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=random&type=tcp&allowInsecure=0&sni=client.imesaagetext.ir#iman1
 vless://4048a9d2-8931-41de-9609-fe88efb27955@almas4.alireza031.shop:44873?path=%2FALMAS4&security=&encryption=none&host=YBQky.divarcdn.com%2CrAJHI.snappfood.ir%2Cm2l3R.yjc.ir%2Cj3rVw.digikala.com%2CD8Kzk.tic.ir&type=ws#ALMAS2
+vless://9fd051c2-6f88-4d55-8d9a-f80489ab7d95@vipnet12a.alireza031.shop:19355?path=%2FVIPNET12&security=&encryption=none&host=PeJiw.divarcdn.com%2Ca3rly.snappfood.ir%2CfZ6eG.yjc.ir%2CjU1XC.digikala.com%2CogKBN.tic.ir&type=ws#VIP4
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "0.0.0.0",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "0.0.0.0",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "199.232.16.5",
+            "port": 80,
+            "users": [
+              {
+                "id": "c7533dbe-0872-4e7d-9609-e1ffa27bc00c",
+                "security": "auto",
+                "encryption": "none",
+                "email": "https://gozargah.github.io/marzban/",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "headers": {
+            "Pragma": "no-cache"
+          },
+          "path": "/download",
+          "host": "sAbzEu.glObal.sSl.fasTly.nEt"
+        }
+      }
+    }
+  ],
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "8.8.8.8"
+    ]
+  },
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": []
+  },
+  "remarks": "🇮🇷  اینترنت ملی 2"
+}
