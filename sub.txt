@@ -4,3 +4,4 @@ vless://1d8fda0a-e95d-44f5-a77a-efcec4df62e0@v2nl.imesaagetext.ir:2081?security=
 vless://4048a9d2-8931-41de-9609-fe88efb27955@almas4.alireza031.shop:44873?path=%2FALMAS4&security=&encryption=none&host=YBQky.divarcdn.com%2CrAJHI.snappfood.ir%2Cm2l3R.yjc.ir%2Cj3rVw.digikala.com%2CD8Kzk.tic.ir&type=ws#ALMAS2
 vless://9fd051c2-6f88-4d55-8d9a-f80489ab7d95@vipnet12a.alireza031.shop:19355?path=%2FVIPNET12&security=&encryption=none&host=PeJiw.divarcdn.com%2Ca3rly.snappfood.ir%2CfZ6eG.yjc.ir%2CjU1XC.digikala.com%2CogKBN.tic.ir&type=ws#VIP4
 vless://ae0b3403-e1aa-4c4e-a592-da433908c4fb@NS2000.tickblue.ir:8443?security=reality&encryption=none&pbk=9nfJ4l5Eq1BKT_gYkdXMK0W9uE8zEJIgVPK9_6S10HY&headerType=none&fp=firefox&type=tcp&sni=stackoverflow.com&sid=09b4fb57276c767d#Netherlands%20%7C%20%F0%9F%87%B3%F0%9F%87%B1
+vless://0068c58c-eaea-45bd-ad34-7463ca3b22b4@makeitclassic.numberonedrshabi.top:2052?path=%2F&security=none&encryption=none&type=ws#yelda
